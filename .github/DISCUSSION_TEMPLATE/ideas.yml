@@ -1,0 +1,29 @@
+title: "[Idea] "
+labels: ["enhancement", "idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Ideas & Planning
+
+  - type: input
+    id: summary
+    attributes:
+      label: 一句话总结 / One-sentence Summary
+      description: 用一句话概括你的想法
+      placeholder: 例如： 建议引入自动化成员管理工具
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 详细描述 / Description
+      description: 自由描述你的想法、建议或任何想分享的内容
+      placeholder: |
+        例如:
+        - 你希望组织在哪些方面有所改进？
+        - 有没有什么新的工具或流程值得尝试？
+        - 或者只是一个初步的想法，想和大家聊聊
+    validations:
+      required: true

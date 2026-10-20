@@ -16,7 +16,7 @@ This page maintains shared conventions for Westlake Noter course notes repositor
 
 | 笔记仓库 / Repository | 课程标签 / Course Topics |
 | :--- | :--- |
-| FAA-lecture-notes | `fundamental-algebra-and-analysis`、`faa` |
+| FAA-lecture-notes-2025fall-2026spring | `fundamental-algebra-and-analysis`、`faa` |
 | Ordinary-Differential-Equations | `ordinary-differential-equations`、`ode` |
 | Measure-Theory-and-Real-Analysis | `measure-theory`、`real-analysis` |
 | Probability-Theory | `probability-theory` |
@@ -24,6 +24,20 @@ This page maintains shared conventions for Westlake Noter course notes repositor
 在仓库首页 **About** 的设置中添加 Topics，使用小写英文和连字符。保留已有且相关的标签；完整名称与常用缩写可以并存，除此之外避免添加含义重复的标签。
 
 Every course notes repository must have GitHub Topics: `notes`, a subject topic (`math` for the current repositories), and at least one full course-name topic. Repositories containing LaTeX sources must also use `latex`. Add established course abbreviations in lowercase, such as `ode` and `faa`, alongside full course topics; do not invent abbreviations for every course. Set these repository Topics, not issue labels, in the repository's About settings.
+
+## 课程版本与学期 / Course Editions & Terms
+
+同一课程不同年份的笔记需要区分版本。仓库名称应体现课程与学期，但不强制统一课程名称的拼写或前后缀。
+
+学期 Topics 统一使用 `年份+学期` 的小写格式，例如 `2025fall`、`2026spring`。跨学期版本分别携带每个学期的标签，不用一个组合标签替代。课程名称、缩写和已有学期标签优先复用历史约定，不创建同义变体，也不创建 `faa-2025fall` 这样的课程与学期组合标签。
+
+本次只补齐 FAA 版本：
+
+- 仓库名称：`FAA-lecture-notes-2025fall-2026spring`。
+- 学期标签：`2025fall`、`2026spring`。
+- 原有标签保留：`notes`、`math`、`latex`、`faa`、`fundamental-algebra-and-analysis`。
+
+Course editions must identify their academic terms in the repository name, without requiring one universal naming pattern. Use separate lowercase term Topics such as `2025fall` and `2026spring`; a multi-term edition carries each term separately. Reuse established course names, abbreviations, and term Topics rather than introducing equivalent variants or combined course-term Topics. Only the FAA edition is updated here; other courses' terms are not inferred.
 
 ## 笔记贡献 / Contributing Notes
 

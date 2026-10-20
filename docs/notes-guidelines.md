@@ -39,6 +39,14 @@ Every course notes repository must have GitHub Topics: `notes`, a subject topic 
 
 Course editions must identify their academic terms in the repository name, without requiring one universal naming pattern. Use separate lowercase term Topics such as `2025fall` and `2026spring`; a multi-term edition carries each term separately. Reuse established course names, abbreviations, and term Topics rather than introducing equivalent variants or combined course-term Topics. Only the FAA edition is updated here; other courses' terms are not inferred.
 
+## 同课程笔记的组织 / Organizing Notes for the Same Course
+
+- 同一学期、同一课程的笔记，原则上放在同一个仓库中协作维护，尽量组织成一份完整、连贯的课程笔记，避免按贡献者重复建立仓库。
+- 如果不同版本在内容组织、讲解方式或排版风格上差异很大，不必强行合并；应在同一仓库内使用不同目录分别存放，而不是仅因风格差异另建仓库。
+- 仓库根目录的 README 必须列出各目录的笔记版本、覆盖内容和主要风格差异，并提供对应的阅读或编译入口，让读者能明确选择。
+
+Notes for the same course in the same academic term should normally share one repository and be maintained as a complete, coherent set of course notes, rather than split into repositories by contributor. Substantially different versions may remain in separate folders within that repository instead of being forced into one style or split into separate repositories. The root README must identify each version, its coverage and main stylistic differences, and its reading or build entry point.
+
 ## 审核负责人 / Code Owners
 
 当前仅 `FAA-lecture-notes-2025fall-2026spring` 保留 `CODEOWNERS`。其他仓库暂不设置，也不要求自动补齐；以后扩大范围需单独确认。
@@ -55,9 +63,10 @@ Submit corrections and improvements in the relevant notes repository. Each repos
 
 ## 新增课程与索引维护 / Adding Courses & Maintaining the Index
 
-1. 在笔记仓库 README 中写明课程名称、内容范围与阅读或编译入口。
-2. 按上述要求设置仓库 Topics；新增课程标签约定在本页维护。
-3. 在 [notes-index](https://github.com/westlake-noter/notes-index) 的课程表中补充课程名称、仓库链接和简短说明。
-4. 协作规则、申请流程和组织治理信息保留在相应仓库，不放入笔记索引。
+1. 先检查同一学期、同一课程是否已有仓库；原则上优先向已有仓库贡献，风格差异较大时在其中新增目录。
+2. 在笔记仓库 README 中写明课程名称、内容范围与阅读或编译入口；有多个笔记目录时，列出各版本及其差异。
+3. 按上述要求设置仓库 Topics；新增课程标签约定在本页维护。
+4. 在 [notes-index](https://github.com/westlake-noter/notes-index) 的课程表中补充课程名称、仓库链接和简短说明。
+5. 协作规则、申请流程和组织治理信息保留在相应仓库，不放入笔记索引。
 
-Document the course and reading or build instructions, set the required Topics, and add a concise entry to the course index. Maintain topic conventions here. Keep collaboration rules, membership processes, and organizational governance out of the notes index.
+Check for an existing repository for the same course and term before creating one. Prefer contributing there, using separate folders for substantially different versions. Document the course, versions, and reading or build instructions, set the required Topics, and add a concise entry to the course index. Maintain topic conventions here. Keep collaboration rules, membership processes, and organizational governance out of the notes index.

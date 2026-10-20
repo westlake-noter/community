@@ -1,19 +1,30 @@
-# 💬 组织意见收集与反馈中心 / Community Feedback Hub
+# Westlake Noter 社区协作中心 / Community Hub
 
-欢迎来到 Westlake Noter 的意见收集仓库。这里是组织成员和社区贡献者分享想法、提出建议、讨论协作流程的公共空间。
+这里是 Westlake Noter 的公共协作空间，集中维护笔记仓库的协作规范，承载社区交流、提议、反馈与组织公告。课程笔记的查找入口统一放在 [notes-index](https://github.com/westlake-noter/notes-index)，具体课程内容保留在各自的笔记仓库中。
 
-Welcome to the feedback hub for Westlake Noter. This is a public space for organization members and community contributors to share ideas, raise suggestions, and discuss collaboration processes.
+This is Westlake Noter's public community hub for collaboration guidelines, discussions, proposals, feedback, and announcements. Find course notes in [notes-index](https://github.com/westlake-noter/notes-index); course content stays in its own notes repository.
+
+## 协作入口 / Collaboration
+
+| 事项 / Topic | 入口 / Destination |
+| :--- | :--- |
+| 笔记仓库标签、贡献与索引维护 / Repository topics, contributions & index maintenance | [笔记仓库协作规范 / Notes Repository Guidelines](docs/notes-guidelines.md) |
+| 社区交流、协作提议与公告 / Discussions, proposals & announcements | [Discussions](https://github.com/westlake-noter/community/discussions) |
+| 已明确、可执行的社区协作事项 / Actionable community tasks | [Issues](https://github.com/westlake-noter/community/issues) |
+| 申请加入组织 / Membership requests | [成员申请 / Membership Application](https://github.com/westlake-noter/membership-application) |
 
 ---
 
 ## 🎯 本仓库的用途 / Purpose of This Repository
 
 - 💡 提出关于组织发展、协作流程的新想法和建议
+- 维护笔记仓库标签、贡献方式等公共协作规范
 - 💬 讨论跨项目、跨团队的通用性问题
 - 📢 了解组织动态和重要公告
 - 🤝 促进成员之间的交流与共识
 
 - 💡 Propose new ideas and suggestions about organizational development and collaboration processes
+- Maintain shared guidelines for notes repository topics and contributions
 - 💬 Discuss cross-project and cross-team topics
 - 📢 Stay informed about organizational updates and announcements
 - 🤝 Foster communication and consensus among members
@@ -55,13 +66,13 @@ Welcome to the feedback hub for Westlake Noter. This is a public space for organ
 1. 成员在 Discussions 中提交想法或建议
 2. 社区成员参与讨论，表达赞同、补充或不同看法
 3. 管理员评估反馈，在讨论中给予回应
-4. 被认可的提议将转化为具体 Issue，纳入相应的项目计划
+4. 被认可的提议根据内容转化为具体仓库的 Issue，或通过 Pull Request 更新本仓库的协作规范
 5. 已处理的话题将被标记并归档
 
 1. Members submit ideas or suggestions in Discussions
 2. Community members participate in the discussion
 3. Maintainers evaluate and respond to feedback
-4. Approved proposals are converted into Issues and added to project plans
+4. Accepted proposals become issues in the relevant repository or pull requests updating this repository's collaboration guidelines
 5. Resolved topics are labeled and archived
 
 ---

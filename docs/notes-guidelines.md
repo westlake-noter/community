@@ -39,6 +39,12 @@ Every course notes repository must have GitHub Topics: `notes`, a subject topic 
 
 Course editions must identify their academic terms in the repository name, without requiring one universal naming pattern. Use separate lowercase term Topics such as `2025fall` and `2026spring`; a multi-term edition carries each term separately. Reuse established course names, abbreviations, and term Topics rather than introducing equivalent variants or combined course-term Topics. Only the FAA edition is updated here; other courses' terms are not inferred.
 
+## 审核负责人 / Code Owners
+
+当前仅 `FAA-lecture-notes-2025fall-2026spring` 保留 `CODEOWNERS`。其他仓库暂不设置，也不要求自动补齐；以后扩大范围需单独确认。
+
+Only the FAA edition currently uses CODEOWNERS. Other repositories are opted out; expanding this scope requires a separate decision.
+
 ## 笔记贡献 / Contributing Notes
 
 - 文字勘误、数学内容修正、表述与排版改进，请在对应笔记仓库提交 Issue 或 Pull Request。
